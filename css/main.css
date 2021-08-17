@@ -1,0 +1,176 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: rgb(0, 0, 0);
+}
+/* ======================================= Top Nav ======================================= */
+.navbar {
+    background-image: linear-gradient(to left, #284E78, #5D8233);
+    font-family: 'Teko', sans-serif;
+}
+.navbar-brand img {
+    width: 5vh;
+}
+.navbar ul li a {
+    color: 0A1931;
+    font-size: 25px;
+    margin-right: 25px;
+}
+.navbar ul a:hover {
+    background-color: FFC947;
+}
+.navbar a img {
+    transition: all 2s;
+}
+.navbar a img:hover {
+    transform: rotateY(180deg)
+}
+.carousel-item {
+    margin-top: 5%;
+}
+/* ======================================= About Us ======================================= */
+#aboutus {
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/20/13/44/paper-1468883_960_720.jpg);
+    color: #01937C;
+    background-size: 100% 100%;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+.hr {
+    background: linear-gradient(to left, #b42020, black, #b42020);
+    width: 60%;
+    height: 5px;
+    margin: auto;
+    border-radius: 50%;
+}
+#aboutus h1 {
+    color: #D83A56;
+}
+/* ======================================= Gallery ======================================= */
+#gallery {
+    background-image: url(https://cdn.pixabay.com/photo/2018/10/12/21/09/grass-3743023_960_720.jpg);
+    background-size: 100% 100%;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+#gallery .nav-tabs {
+    background: rgba(0, 0, 0, 0.534);
+    margin: auto;
+    width: 60%;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+#gallery .nav-tabs a {
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+}
+.tab-content img {
+    margin: 10px 0px;
+    border-radius: 20px;
+}
+/* ======================================= Contact Us ======================================= */
+#contactUs {
+    background-image: url(../img/sahra.jpg);
+    background-size: 100% 100%;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+/* ======================================= Footer ======================================= */
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#000000;
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+}
+.footer-dark hr {
+    background-color: rgba(255, 0, 0, 0.664);
+    width: 100%;
+    height: 0.5vh;
+    border-radius: 20px;
+}
+.footer-dark h2 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:40px;
+  }
+}
+.footer-dark .item.social > a {
+  font-size:30px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:40%;
+  margin:0 10px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
